@@ -1,19 +1,46 @@
-.page {
+.home {
+  padding: 24px;
+}
+
+.home-title {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 48%;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  min-height: 60vh;
-  padding: 40px;
 }
 
-.title {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 16px;
+.card-emoji {
+  font-size: 80px;
+  line-height: 1.2;
 }
 
-.subtitle {
+.card-name {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.card-price {
   font-size: 28px;
-  color: #999;
+  color: #1296db;
+  margin-top: 8px;
 }
