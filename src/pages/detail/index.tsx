@@ -1,6 +1,7 @@
 import { View, Text, Button } from '@tarojs/components'
 import Taro, { useRouter } from '@tarojs/taro'
 import { getProductById } from '../../data/products'
+import * as cart from '../../store/cart'
 import './index.css'
 
 export default function Detail () {
@@ -17,8 +18,8 @@ export default function Detail () {
   }
 
   const addToCart = () => {
-    // Cart logic comes in Step 3. For now just confirm the tap works.
-    Taro.showToast({ title: 'Added (soon!)', icon: 'none' })
+    cart.add(product)
+    Taro.showToast({ title: 'Added to cart', icon: 'success' })
   }
 
   return (
