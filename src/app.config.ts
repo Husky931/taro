@@ -5,6 +5,7 @@ export default defineAppConfig({
     "pages/orders/index",
     "pages/me/index",
     "pages/detail/index",
+    "pages/checkout/index",
   ],
   window: {
     backgroundTextStyle: "light",

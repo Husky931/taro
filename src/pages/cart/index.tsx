@@ -20,7 +20,7 @@ export default function Cart () {
   }
 
   const checkout = () => {
-    Taro.showToast({ title: 'Checkout: Step 4', icon: 'none' })
+    Taro.navigateTo({ url: '/pages/checkout/index' })
   }
 
   return (

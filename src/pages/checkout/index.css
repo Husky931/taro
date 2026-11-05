@@ -1,0 +1,68 @@
+.checkout {
+  padding: 24px;
+  padding-bottom: 60px;
+}
+
+.section-title {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 24px 0 16px;
+}
+
+.summary {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.sum-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+
+.sum-name {
+  color: #333;
+}
+
+.sum-price {
+  color: #666;
+}
+
+.sum-total {
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1296db;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 26px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.input {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.place-btn {
+  margin-top: 40px;
+  width: 100%;
+}
